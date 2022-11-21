@@ -1,0 +1,64 @@
+body{
+    background-color: black;
+}
+.navsection{
+    height: 20vh;
+    background-color: black;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+
+
+}
+nav>ul{
+    display:flex;
+    list-style:none;
+
+}
+nav>ul>li a{
+    margin:0 1rem;
+    padding:  1rem;
+    border-radius: 1rem;
+}
+nav>ul>li a:hover{
+    background-color: antiquewhite;
+}
+.homesection{
+    color: white;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 2rem 0;
+
+}
+.homedescription{
+    width: 30%;
+    
+
+}
+.homedescription p{
+    font-size: 25px;
+}
+.image{
+    width: 300px;
+}
+.aboutme{
+    color: white;
+    margin:auto;
+    width: 60vw;
+}
+.mystory p{
+    color: white;
+    font-size: 23px;
+    width: 100%;
+
+}
+#more{
+    display:none;
+}
+#button{
+    color: red;
+    cursor: pointer;
+    outline: none;
+}
